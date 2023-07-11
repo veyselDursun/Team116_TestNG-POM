@@ -11,6 +11,7 @@ public class C06_QDLoginTest {
     @Test (groups = {"smoke","mini regression","regression"})
     public void test01(){
         //1- https://www.qualitydemy.com/ anasayfasina gidin
+
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));
 
         //2- login linkine basin

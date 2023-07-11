@@ -22,7 +22,6 @@ public class C07_QDNegativeLoginTesti {
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));
 
         QdPage qdPage = new QdPage();
-
         qdPage.ilkLoginLinki.click();
 
         qdPage.emailKutusu.sendKeys(ConfigReader.getProperty("qdGecerliUsername"));
