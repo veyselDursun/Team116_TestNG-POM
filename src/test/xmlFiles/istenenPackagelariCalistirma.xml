@@ -6,7 +6,8 @@
 
         <packages>
             <package name="tests.day12_testNG"></package>
-            <package name="tests.day14_testNgFramework_xmlFiles"></package>
+            <package name="tests.day13_testNGFramework"></package>
         </packages>
     </test>
 </suite>
+

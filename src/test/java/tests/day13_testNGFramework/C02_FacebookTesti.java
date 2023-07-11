@@ -27,11 +27,11 @@ public class C02_FacebookTesti {
         facebookPage.emailKutuElementi.sendKeys(faker.internet().emailAddress());
         facebookPage.passwordKutuElementi.sendKeys(faker.internet().password());
 
+
         facebookPage.girisYapButonu.click();
 
 
         //4- Basarili giris yapilamadigini test edin
-
 
         Assert.assertTrue(facebookPage.basarisizGirisyaziElementi.isDisplayed());
 
