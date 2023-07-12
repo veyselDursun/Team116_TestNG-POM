@@ -5,7 +5,7 @@
     <test name="paralel calistirma browser1">
         <packages>
             <package name="tests.day12_testNG"></package>
-            <package name="tests.day14_testNgFramework_xmlFiles"></package>
+            <package name="tests.day14_testNGFramework_xmlFiles"></package>
         </packages>
     </test>
 
@@ -16,3 +16,4 @@
     </test>
 
 </suite>
+
