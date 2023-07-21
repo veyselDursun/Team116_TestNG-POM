@@ -37,14 +37,17 @@ public class P02_BagimliTestler {
     public void wise(){
         Driver.getDriver().get(ConfigReader.getProperty("wiseUrl"));
     }
-    @Test (dependsOnMethods = "wise")
+
+    @Test (dependsOnMethods = "wise") // wise e giderse amazon a gidecek
     public void amazon(){
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
     }
+
     @Test (dependsOnMethods = "amazon")
     public void google(){
         Driver.getDriver().get(ConfigReader.getProperty("googleUrl"));
     }
+
     @AfterClass
     public static void tearDown(){
         driver.close();
