@@ -28,7 +28,6 @@ public class C01_SingletonPattern {
 
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
 
-
         // driver objemizi private yapip direk kullanimi engelledik
         // Driver.driver.get(ConfigReader.getProperty("amazonUrl"));
 
